@@ -1,0 +1,25 @@
+# 04-01 조건에 따라 흐름 조절하기 - if, if else문과 조건 연산자
+<truthy 값과 falsy 값>
+- 논리형 자료 값은 true, false 뿐이다.
+
+1. true로 인정할 수 있는 값
+2. false로 인정할 수 있는 값
+
+<js에서 falsy하게 인정하는 값>
+1. 0  : 숫자 0
+2. "" : 빈 문자열
+3. NaN : 숫자가 아님 Not a Number
+4. undefined : 정의되지 않음
+5. null : 유효하지 않은 값
+
+# 04-02 조건이 많을 때 흐름 조절하기 - switch문
+
+# 04-03 명령문 반복 실행하기 - for문
+
+# 04-04 for문 반복하기 - 중첩 for문
+
+# 04-05 특정 조건에 따라 반복하기 - while문, do-while문
+
+# 04-06 반복을 건너뛰거나 멈추기 - break문, continue문
+
+
