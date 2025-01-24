@@ -34,9 +34,31 @@ else {              //falsy하다. false와 동일
 //04-03
 
 //1~100까지 더하는 for문 작성
-
+/*
 var res=0;
 for(var i=1; i<=100; i++){
     res += i;
 }
 document.write("1~100까지 합은 "+ res + "입니다.<br>");
+*/
+
+//for ... of문
+/*
+let seasons = ["봄", "여름", "가을", "겨울"];
+for (let value of seasons) {
+    console.log(value);
+}*/
+
+//04-04
+
+//중첩 for문 - *을 5x30개 찍기
+/*
+for(var k=0;k<5;k++) {
+    for(var i=0;i<30;i++) {
+        document.write("*");
+    }
+    document.write("<br>");
+}
+*/
+
+
