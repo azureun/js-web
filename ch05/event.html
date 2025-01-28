@@ -1,0 +1,26 @@
+<!--마우스로 눌러 설명 표시하거나 감추기-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>자바스크립트 이벤트</title>
+    <link rel="stylesheet" href="css/event.css">
+</head>
+<body>
+    <div id="item">
+        <img src="images/flower2.jpg" width="300" height="300" alt="" ondblclick="alert('두 번 눌렀습니다.')">
+        <button class="over" id="open" onmouseover="alert('마우스 커서를 올렸습니다.')">상세 설명 보기</button>
+        <div id="desc" class="detail">
+            <h4>아이스퀸 튤립</h4>
+            <p>
+                아이스퀸 튤립의 꽃말은 순결, 청초함입니다.<br>
+                아이스퀸 튤립은 겨울에 피는 꽃으로, 하얀 튤립에 블루가 물들어 있는 색감이 매력적입니다.<br>
+                흰 눈이 쌓여있는 듯한 독특한 질감을 가지고 있습니다.<br>
+            </p>
+            <button id="close">상세 설명 닫기</button>
+        </div>
+    </div>
+</body>
+</html>
