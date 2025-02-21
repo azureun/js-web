@@ -5,8 +5,8 @@ var firstDate = String(prompt("처음 만난 날짜를 입력하세요.(YYYY-MM-
 var firstDay = new Date(firstDate); //처음 만난 날 설정
 var toNow = now.getTime();         //오늘 날짜를 밀리초로 바꿈
 var toFirst = firstDay.getTime();  //처음 만난 날을 밀리초로 바꿈
-var passedTime = toNow - toFirst;   //처음 만난 날과 오늘 사이의 차이 (밀리초)
-var passedDay = Math.round(passedTime/(24*60*60*1000)); //밀리초 -> 일(day) 변환 후 반올림
+var passedTime = toNow - toFirst;   //지나온 날 : 처음 만난 날과 오늘 사이의 차이 (밀리초)
+var passedDay = Math.round(passedTime/(24*60*60*1000)); //밀리초 -> 일(day) 변환(24시간*60분*60초*0.001) 후 반올림
 document.querySelector('#accent').innerHTML = passedDay + "일";
 
 //기념일 계산하기
@@ -21,6 +21,6 @@ function calcDate(days){
     var year = someday.getFullYear();
     var month = someday.getMonth() + 1; //getMonth는 0~11까지이므로 주의
     var date = someday.getDate();
-    document.querySelector("#date" + days).innerText = year + "년" + month + "일" + date + "일";
+    document.querySelector("#date" + days).innerText = year + "년" + month + "월월" + date + "일";
 }
 
