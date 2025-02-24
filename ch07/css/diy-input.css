@@ -9,9 +9,10 @@ h2 {
     text-align: center;
 }
 form {
-    background-color: #007acc;
+    background-color: #a9e0fa;
     padding:30px 40px;
     color: white;
+    box-shadow: 1px 2px 4px #8f9aa5;
     text-align:center;
 }
 input {
@@ -26,7 +27,7 @@ input {
     width:50px;
     border:none;
     background-color:#fff;
-    box-shadow:1px 2px 4px #167dae;
+    box-shadow:1px 2px 4px #8f9aa5;
     color: #555;
     text-align:center;
     font-size:15px;
