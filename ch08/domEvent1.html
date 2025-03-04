@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>이벤트 처리하기1</title>
+    <link rel="stylesheet" href="css/domevent.css">
+</head>
+<body>
+    <h3>HTML 태그 안에서 이벤트 처리기 연결</h3>
+    <div id="container">
+        <img id="pic" src="images/girl.png" alt="" onclick="changePic()">   <!--이미지 누르면 changePic() 실행. html 태그에서 실행.-->
+    </div>
+    <script>
+        var pic = document.querySelector('#pic');
+        
+        function changePic(){
+            pic.src = "images/boy.png";
+        }
+    </script>
+</body>
+</html>

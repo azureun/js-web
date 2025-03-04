@@ -1,1 +1,1 @@
-document.querySelector('#detail h3').style.visibility = 'hidden';
+//document.querySelector('#detail h3').style.visibility = 'hidden';
