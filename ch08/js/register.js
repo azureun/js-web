@@ -1,7 +1,6 @@
 function newRegister() {
     var newP = document.createElement("p");                 //1. 새 p 요소 만들기
     var userName = document.querySelector("#userName");     //텍스트 필드 내용 가져오기
-    
     var newText = document.createTextNode(userName.value);  //2. 새 텍스트 노드 만들기
     newP.appendChild(newText);                              //3. 새로 만든 newText 요소를 새로 만들어 둔 부모 요소 노드인 newP에 추가
 
