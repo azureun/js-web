@@ -4,10 +4,13 @@
 }
 form fieldset {
     margin-bottom:25px;
+    border-radius: 10px;
+    text-align: center;
 }
 form legend {
     font-size:15px;
     font-weight: 600;
+    text-align: left;
 }
 label.reg {
     font-size:14px;
@@ -22,6 +25,7 @@ form ul li{
     list-style:none;
     margin: 15px 0;
     font-size:14px;
+    text-align: left;
 }
 #selectAll {
     cursor:pointer;
