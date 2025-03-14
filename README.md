@@ -22,6 +22,9 @@
 ✅[ch10 공부노트](ch10/ch10%20공부노트.md)
 (BOM) <br>
 
+### 참고 교재
+Do it! - 웹 프로그래밍을 위한 자바스크립트 기본편
+
 ### 참고 소스 파일
 [깃허브] github.com/funnycom/js-basic-book
 
